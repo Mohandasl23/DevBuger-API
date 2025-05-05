@@ -1,7 +1,7 @@
 {
   "name": "devburger-api",
-  "version": "1.0.0", 
-  "type": "module", 
+  "version": "1.0.0",
+  "type": "module",
   "description": "DevBurger API.",
   "main": "src/server.js",
   "scripts": {
@@ -11,12 +11,12 @@
     "name": "Mohandas Leandro",
     "url": "https://github.com/Mohandasl23"
   },
-  "license": "ISC",  
+  "license": "ISC",
   "dependencies": {
-  "express": "^5.1.0"
+    "express": "^5.1.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.10",
+  "devDependencies": {    
+    "nodemon": "^3.1.10",    
     "sucrase": "^3.35.0"
   }
 }
