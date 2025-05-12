@@ -1,6 +1,11 @@
 import express from 'express';
 import routes from './routes.js';
 
+import "./database/index.js";
+
+
+
+
 
 class App {
     constructor() {
