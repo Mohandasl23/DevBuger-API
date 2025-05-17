@@ -1,11 +1,12 @@
-//Exemplo 2
+// src/routes.js
 import { Router } from 'express';
+import UserController from './app/controllers/UserControllers.js';
+
 
 const routes = Router();
 
-// Rota de exemplo
-routes.get('/', (request, response) => {
-        return response.status(200).json({ message: 'Hello World' })
-});
+routes.post('/users', UserController.store);
+  
+
 
 export default routes;
